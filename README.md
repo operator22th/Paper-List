@@ -27,5 +27,5 @@ Inspired by my friend Gao's  [Reading List](https://github.com/Winston-Gu/Paper-
 ### Imitation Learning
 - NeurIPS 2022, Behavior Transformers: Cloning $k$ modes with one stone. [Website](https://arxiv.org/pdf/2206.11251). Use Transformer to predict an action given previous obsversions, with the action represented as a k-means generated discrete token and a continueous offset.
 - ICML 2024, Behavior Generation with Latent Actions. [Website](https://arxiv.org/abs/2403.03181). Propose VQ-BeT, which just change the k-means above to residual VQ-VAE. Given the offset, tokens can be sparse and cheap, which enables robot deployment. 
-- AISTATS 2011, A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning. [Website](https://arxiv.org/pdf/1011.0686). Always aggregate your datasets with updated policies.
+- AISTATS 2011, A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning. [Website](https://arxiv.org/pdf/1011.0686). Always aggregate your datasets with updated policies and keep an eye on the expert at the same time.
 

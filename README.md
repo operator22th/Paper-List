@@ -29,3 +29,6 @@ Inspired by my friend Gao's  [Reading List](https://github.com/Winston-Gu/Paper-
 - ICML 2024, Behavior Generation with Latent Actions. [Website](https://arxiv.org/abs/2403.03181). Propose VQ-BeT, which just change the k-means above to residual VQ-VAE. Given the offset, tokens can be sparse and cheap, which enables robot deployment. 
 - AISTATS 2011, A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning. [Website](https://arxiv.org/pdf/1011.0686). Always aggregate your datasets with updated policies and keep an eye on the expert at the same time.
 
+### Robotic Learning
+- CoRL 2020, ContactNets: Learning Discontinuous Contact Dynamics with Smooth, Implicit Representations. [Website](https://arxiv.org/abs/2009.11193). Breaking contact with a smooth parameterization of the contact problem with signed distance function and tangential Jacobian.
+
